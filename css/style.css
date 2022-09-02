@@ -1,0 +1,22 @@
+:root {
+    --color: #343433;
+}
+
+* {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: var(--color)
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    border-bottom: solid 1px white;
+}
+
+input[type='color'],
+button {
+    cursor: pointer;
+}
